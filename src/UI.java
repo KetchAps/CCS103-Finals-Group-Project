@@ -158,17 +158,17 @@ public class UI {
 		separatorDentalService.setBounds(108, 96, 148, 2);
 		panelNewData.add(separatorDentalService);
 		
-		JCheckBox chckbxOption1 = new JCheckBox("Option 1");
+		JCheckBox chckbxOption1 = new JCheckBox("Dental Check-up & Oral Examination");
 		serviceBoxes[0] = chckbxOption1;
 		chckbxOption1.setBounds(5, 110, 254, 23);
 		panelNewData.add(chckbxOption1);
 		
-		JCheckBox chckbxOption2 = new JCheckBox("Option 2");
+		JCheckBox chckbxOption2 = new JCheckBox("Teeth Cleaning");
 		serviceBoxes[1] = chckbxOption2;
 		chckbxOption2.setBounds(5, 136, 251, 23);
 		panelNewData.add(chckbxOption2);
 		
-		JCheckBox chckbxOption3 = new JCheckBox("Option 3");
+		JCheckBox chckbxOption3 = new JCheckBox("Dental Fillings");
 		serviceBoxes[2] = chckbxOption3;
 		chckbxOption3.setBounds(5, 162, 251, 23);
 		panelNewData.add(chckbxOption3);
@@ -181,37 +181,37 @@ public class UI {
 		lblAdditionalServices.setBounds(10, 192, 115, 14);
 		panelNewData.add(lblAdditionalServices);
 		
-		JCheckBox chckbxOption4 = new JCheckBox("Option 4");
+		JCheckBox chckbxOption4 = new JCheckBox("Tooth Extraction");
 		serviceBoxes[3] = chckbxOption4;
 		chckbxOption4.setBounds(5, 208, 251, 23);
 		panelNewData.add(chckbxOption4);
 		
-		JCheckBox chckbxOption5 = new JCheckBox("Option 5");
+		JCheckBox chckbxOption5 = new JCheckBox("Root Canal Treatment");
 		serviceBoxes[4] = chckbxOption5;
 		chckbxOption5.setBounds(5, 234, 251, 23);
 		panelNewData.add(chckbxOption5);
 		
-		JCheckBox chckbxOption6 = new JCheckBox("Option 6");
+		JCheckBox chckbxOption6 = new JCheckBox("Bridges, Dentures & Tooth Replacement");
 		serviceBoxes[5] = chckbxOption6;
 		chckbxOption6.setBounds(5, 260, 251, 23);
 		panelNewData.add(chckbxOption6);
 		
-		JCheckBox chckbxOption7 = new JCheckBox("Option 7");
+		JCheckBox chckbxOption7 = new JCheckBox("Dental Crowns");
 		serviceBoxes[6] = chckbxOption7;
 		chckbxOption7.setBounds(5, 286, 251, 23);
 		panelNewData.add(chckbxOption7);
 		
-		JCheckBox chckbxOption8 = new JCheckBox("Option 8");
+		JCheckBox chckbxOption8 = new JCheckBox("Orthodontics (Braces / Aligners)");
 		serviceBoxes[7] = chckbxOption8;
 		chckbxOption8.setBounds(5, 312, 251, 23);
 		panelNewData.add(chckbxOption8);
 		
-		JCheckBox chckbxOption9 = new JCheckBox("Option 9");
+		JCheckBox chckbxOption9 = new JCheckBox("Teeth Whitening");
 		serviceBoxes[8] = chckbxOption9;
 		chckbxOption9.setBounds(5, 338, 251, 23);
 		panelNewData.add(chckbxOption9);
 		
-		JCheckBox chckbxOption10 = new JCheckBox("Option 10");
+		JCheckBox chckbxOption10 = new JCheckBox("Gum Treatment");
 		serviceBoxes[9] = chckbxOption10;
 		chckbxOption10.setBounds(5, 364, 251, 23);
 		panelNewData.add(chckbxOption10);

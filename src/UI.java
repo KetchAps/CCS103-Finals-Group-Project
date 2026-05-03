@@ -162,6 +162,10 @@ public class UI {
 		serviceBoxes[0] = chckbxOption1;
 		chckbxOption1.setBounds(5, 110, 254, 23);
 		panelNewData.add(chckbxOption1);
+
+		JLabel lblPrice1 = new JLabel("₱1000");
+		lblPrice1.setBounds(220, 114, 80, 14);
+		panelNewData.add(lblPrice1);
 		
 		JCheckBox chckbxOption2 = new JCheckBox("Teeth Cleaning");
 		serviceBoxes[1] = chckbxOption2;

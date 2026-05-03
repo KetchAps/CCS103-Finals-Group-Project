@@ -171,12 +171,20 @@ public class UI {
 		serviceBoxes[1] = chckbxOption2;
 		chckbxOption2.setBounds(5, 136, 251, 23);
 		panelNewData.add(chckbxOption2);
+
+		JLabel lblPrice2 = new JLabel("₱2000");
+		lblPrice2.setBounds(220, 140, 80, 14);
+		panelNewData.add(lblPrice2);
 		
 		JCheckBox chckbxOption3 = new JCheckBox("Dental Fillings");
 		serviceBoxes[2] = chckbxOption3;
 		chckbxOption3.setBounds(5, 162, 251, 23);
 		panelNewData.add(chckbxOption3);
-		
+
+		JLabel lblPrice3 = new JLabel("₱3000");
+		lblPrice3.setBounds(220, 166, 80, 14);
+		panelNewData.add(lblPrice3);
+
 		JSeparator separatorAddService = new JSeparator();
 		separatorAddService.setBounds(124, 199, 135, 2);
 		panelNewData.add(separatorAddService);
@@ -189,36 +197,64 @@ public class UI {
 		serviceBoxes[3] = chckbxOption4;
 		chckbxOption4.setBounds(5, 208, 251, 23);
 		panelNewData.add(chckbxOption4);
-		
+
+		JLabel lblPrice4 = new JLabel("₱4000");
+		lblPrice4.setBounds(220, 212, 80, 14);
+		panelNewData.add(lblPrice4);
+
 		JCheckBox chckbxOption5 = new JCheckBox("Root Canal Treatment");
 		serviceBoxes[4] = chckbxOption5;
 		chckbxOption5.setBounds(5, 234, 251, 23);
 		panelNewData.add(chckbxOption5);
-		
+
+		JLabel lblPrice5 = new JLabel("₱5000");
+		lblPrice5.setBounds(220, 238, 80, 14);
+		panelNewData.add(lblPrice5);
+
 		JCheckBox chckbxOption6 = new JCheckBox("Bridges, Dentures & Tooth Replacement");
 		serviceBoxes[5] = chckbxOption6;
 		chckbxOption6.setBounds(5, 260, 251, 23);
 		panelNewData.add(chckbxOption6);
+
+		JLabel lblPrice6 = new JLabel("₱6000");
+		lblPrice6.setBounds(220, 264, 80, 14);
+		panelNewData.add(lblPrice6);
 		
 		JCheckBox chckbxOption7 = new JCheckBox("Dental Crowns");
 		serviceBoxes[6] = chckbxOption7;
 		chckbxOption7.setBounds(5, 286, 251, 23);
 		panelNewData.add(chckbxOption7);
+
+		JLabel lblPrice7 = new JLabel("₱7000");
+		lblPrice7.setBounds(220, 290, 80, 14);
+		panelNewData.add(lblPrice7);
 		
 		JCheckBox chckbxOption8 = new JCheckBox("Orthodontics (Braces / Aligners)");
 		serviceBoxes[7] = chckbxOption8;
 		chckbxOption8.setBounds(5, 312, 251, 23);
 		panelNewData.add(chckbxOption8);
+
+		JLabel lblPrice8 = new JLabel("₱8000");
+		lblPrice8.setBounds(220, 316, 80, 14);
+		panelNewData.add(lblPrice8);
 		
 		JCheckBox chckbxOption9 = new JCheckBox("Teeth Whitening");
 		serviceBoxes[8] = chckbxOption9;
 		chckbxOption9.setBounds(5, 338, 251, 23);
 		panelNewData.add(chckbxOption9);
-		
+
+		JLabel lblPrice9 = new JLabel("₱9000");
+		lblPrice9.setBounds(220, 342, 80, 14);
+		panelNewData.add(lblPrice9);
+
 		JCheckBox chckbxOption10 = new JCheckBox("Gum Treatment");
 		serviceBoxes[9] = chckbxOption10;
 		chckbxOption10.setBounds(5, 364, 251, 23);
 		panelNewData.add(chckbxOption10);
+
+		JLabel lblPrice10 = new JLabel("₱10000");
+		lblPrice10.setBounds(220, 368, 80, 14);
+		panelNewData.add(lblPrice10);
 		
 		JButton btnCalculateBill = new JButton("Calculate Bill");
 		btnCalculateBill.addActionListener(calculate);
